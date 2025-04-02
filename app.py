@@ -7,7 +7,7 @@ from Resources.item import blp as ItemBlueprint
 from Resources.store import blp as StoreBlueprint
 from Resources.tag import blp as TagBlueprint
 from Resources.user import blp as UserBlueprint
-from blocklist import BLOCKLIST
+# from blocklist import BLOCKLIST
 from db import db
 
 
