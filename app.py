@@ -7,12 +7,14 @@ from Resources.item import blp as ItemBlueprint
 from Resources.store import blp as StoreBlueprint
 from Resources.tag import blp as TagBlueprint
 from Resources.user import blp as UserBlueprint
+from dotenv import load_dotenv
 # from blocklist import BLOCKLIST
 from db import db
 
 
 def create_app(db_url=None):
     app = Flask(__name__)
+    load_dotenv()
 
     app.config["PROPAGATE_EXCEPTIONS"] = True
     app.config["API_TITLE"] = "Stores REST API"

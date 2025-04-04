@@ -1,5 +1,6 @@
 .venv
+.env
 .idea
 __pycache__
-#data.db
+data.db
 blocklist.py
